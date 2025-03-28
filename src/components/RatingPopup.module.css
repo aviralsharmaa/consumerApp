@@ -1,0 +1,100 @@
+
+
+.star-rating {
+	white-space: nowrap;
+}
+.star-rating [type="radio"] {
+	appearance: none;
+}
+.star-rating i {
+	font-size: 1.2em;
+	transition: 0.3s;
+}
+
+.star-rating label:is(:hover, :has(~ :hover)) i {
+	transform: scale(1.35);
+	color: #fffdba;
+	animation: jump 0.5s calc(0.3s + (var(--i) - 1) * 0.15s) alternate infinite;
+}
+.star-rating label:has(~ :checked) i {
+	color: #faec1b;
+	text-shadow: 0 0 2px #ffffff, 0 0 10px #ffee58;
+}
+
+@keyframes jump {
+	0%,
+	50% {
+		transform: translatey(0) scale(1.35);
+	}
+	100% {
+		transform: translatey(-15%) scale(1.35);
+	}
+}
+
+.Star {
+    font-size: 2em;
+    color: #cfd8dc;
+    cursor: pointer;
+    transition: all 0.3s;
+  }
+  
+ 
+
+  .overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent black overlay */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .popup {
+    background-color: white;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1); /* Soft shadow effect */
+    max-width: 400px;
+    width:80%;
+    height: 78%;
+    border-radius: 5px;
+  }
+  .disable-scroll {
+    overflow: hidden;
+  }
+  .popup h2 {
+    margin-bottom: 10px;
+  }
+  
+  .popup input[type="text"],
+  .popup textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+  
+  .popup textarea {
+    height: 100px; /* Adjust height as needed */
+  }
+  
+  .popup button {
+    padding: 10px 20px;
+    margin-right: 10px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .popup button:last-child {
+    margin-right: 0;
+  }
+  
+  .popup button:hover {
+    background-color: #f0f0f0; /* Light gray on hover */
+  }

@@ -1,0 +1,85 @@
+
+.cameraCutoutIcon {
+  width: 24px;
+  height: 24px;
+  position: relative;
+  display: none;
+}
+.time {
+  position: relative;
+  letter-spacing: 0.01em;
+  line-height: 20px;
+  font-weight: 500;
+}
+.rightIcons {
+  height: 17px;
+  width: 46px;
+  position: relative;
+}
+.timeParent {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  justify-content: space-between;
+}
+.mainFrameChild {
+  width: 107px;
+  height: 50px;
+  position: relative;
+  object-fit: cover;
+}
+.mainFrame {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  /* padding: 0 var(--padding-base); */
+  gap: var(--gap-11xl);
+}
+.f7xmarkSealIcon {
+  width: 112px;
+  height: 112px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.counterfeit1 {
+  color: var(--color-indianred);
+}
+.theItemAppearsContainer {
+  align-self: stretch;
+  position: relative;
+  letter-spacing: 0.01em;
+}
+.counterfeit,
+.warningFrame {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  box-sizing: border-box;
+  font-size: var(--font-size-sm);
+  color: var(--color-black);
+}
+.warningFrame {
+  width: 274px;
+  height: 360px;
+  padding: 0 var(--padding-xl);
+  gap: 48px;
+  text-align: center;
+  font-family: var(--font-mulish);
+}
+.counterfeit {
+  width: 100%;
+  position: relative;
+  background-color: var(--color-azure);
+  overflow: hidden;
+  padding: var(--padding-3xs) 0 0;
+  gap: 190px;
+  text-align: left;
+  font-family: var(--font-roboto);
+}
+
+

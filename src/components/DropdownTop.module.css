@@ -1,0 +1,96 @@
+.chilliSauceRectangleFrame,
+.churningProcessFrame {
+  border-top: 1px solid var(--color-paleturquoise);
+  box-sizing: border-box;
+  height: 1px;
+}
+.chilliSauceRectangleFrame {
+  align-self: stretch;
+  position: relative;
+}
+.churningProcessFrame {
+  position: absolute;
+  top: 47px;
+  left: 0;
+  width: 361px;
+}
+.benefitsGroupChild {
+  position: absolute;
+  top: 0;
+  left: 16px;
+  width: 17px;
+  height: 47px;
+}
+.milkSourcingBegins,
+.october12023 {
+  position: relative;
+  letter-spacing: 0.01em;
+}
+.october12023 {
+  color: var(--color-gray);
+}
+.milkSourcingBeginsParent {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-xl) 0 0;
+  gap: var(--gap-9xs);
+}
+.iconamoonarrowUp2 {
+  height: 24px;
+  width: 24px;
+  position: absolute;
+  margin: 0 !important;
+  top: 4px;
+  right: 0;
+  overflow: hidden;
+  flex-shrink: 0;
+  object-fit: contain;
+}
+.frameParent {
+  position: absolute;
+  top: 1px;
+  left: 40px;
+  width: 330px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+}
+.benefitsGroup {
+  align-self: stretch;
+  height: 47px;
+  position: relative;
+}
+.home {
+  position: absolute;
+  height: calc(100% - 16px);
+  top: 12px;
+  bottom: 4px;
+  left: calc(50% - 50px);
+  border-radius: var(--br-5xs);
+  background-color: var(--color-black);
+  width: 100px;
+}
+.navigation {
+  align-self: stretch;
+  height: 20px;
+  position: relative;
+  background-color: var(--color-azure);
+  display: none;
+}
+.dropdownTop {
+  align-self: stretch;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-12xs) 0 0;
+  gap: var(--gap-xs);
+  text-align: left;
+  font-size: var(--font-size-xs);
+  color: var(--color-seagreen);
+  font-family: var(--font-mulish);
+}

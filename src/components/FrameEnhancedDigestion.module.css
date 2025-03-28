@@ -1,0 +1,27 @@
+.benefitsContainer {
+  display: flex;
+  flex-direction: column; /* Arrange items in a vertical list */
+  gap: 10px; /* Adjust the spacing between items */
+  overflow-x: hidden;
+  max-width: 100%;
+}
+
+.benefitItem {
+  display: flex;
+  align-items: center; /* Optional: Align icon and text vertically */
+  margin-bottom: 10px; /* Adjust the bottom margin as needed */
+  word-wrap: break-word; /* Ensures long words break to the next line */
+}
+
+.benefitIcon {
+  width: 50px;
+  height: 53px;
+  margin-right: 10px; /* Space between icon and text */
+}
+
+.benefitText {
+  font-size: 12px;
+  letter-spacing: 0.01em;
+  color: black;
+  overflow-wrap: break-word; /* Ensures text within the span wraps appropriately */
+}

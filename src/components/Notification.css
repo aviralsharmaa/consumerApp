@@ -1,0 +1,29 @@
+.notification {
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    padding: 10px 20px;
+    border-radius: 4px;
+    color: #fff;
+    z-index: 1000;
+  }
+  
+  .notification.error {
+    background-color: #ff6347;
+  }
+  
+  .notification.success {
+    background-color: #32cd32;
+  }
+  
+  .close-btn {
+    background-color: transparent;
+    border: none;
+    color: #fff;
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    right: 10px;
+    transform: translateY(-50%);
+  }
+  

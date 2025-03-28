@@ -1,0 +1,51 @@
+.newArrivals1 {
+  width: 348px;
+  position: relative;
+  letter-spacing: 0.01em;
+  display: inline-block;
+  max-width: 100%;
+  padding-right: var(--padding-xl);
+  color: black;
+}
+.appleJuiceFrameParent,
+.newArrivals,
+.newArrivalsWrapper {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.appleJuiceFrameParent {
+  width: 364px;
+  overflow-x: auto;
+  /* overflow-x: hidden; */
+  flex-direction: row;
+  padding: 0 var(--padding-xl) 0 0;
+  box-sizing: border-box;
+  gap: var(--gap-base);
+  max-width: 100%;
+
+}
+::-webkit-scrollbar {
+  display: none;
+}
+.newArrivals,
+.newArrivalsWrapper {
+  flex-shrink: 0;
+}
+.newArrivals {
+  width: 392px;
+  flex-direction: column;
+  gap: var(--gap-2xl);
+  max-width: 114%;
+}
+.newArrivalsWrapper {
+  align-self: stretch;
+  flex-direction: row;
+  padding: 0 0 0 var(--padding-base);
+  box-sizing: border-box;
+  max-width: 100%;
+  text-align: left;
+  font-size: var(--font-size-xs);
+  color: var(--color-seagreen);
+  font-family: var(--font-mulish);
+}

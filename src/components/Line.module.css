@@ -1,0 +1,529 @@
+.heroiconsOutlinemenuAlt1,
+.image2Icon {
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+
+.ingredientsFrame, .newArrivalsFrame {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+.heroiconsOutlinemenuAlt1 {
+  margin: 0;
+  height: 24px;
+  width: 24px;
+}
+.joinOurDriveText {
+  position: relative;
+  max-width: 100%;
+  max-height: 100%;
+  object-fit: cover;
+}
+.joinOurDriveText,
+.sealUnseal {
+  align-self: stretch;
+  overflow: hidden;
+}
+.dropdownArrowUp {
+  align-items: center;
+  gap: var(--gap-xs);
+  text-align: left;
+  font-size: var(--font-size-xs);
+  color: var(--color-black);
+  font-family: var(--font-mulish);
+}
+.dropdownArrowUp,
+.dropdownTop,
+.iconMoonArrowUp {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+/* .image2Icon {
+  align-self: stretch;
+  height: 50px;
+  max-width: 60%;
+  object-fit: cover;
+  padding-top: 7px;
+  padding-bottom: 5px;
+} */
+
+.image2Icon {
+  width: 100%; /* Stretch image to full width of container */
+  height: auto; /* Maintain aspect ratio */
+  object-fit: cover; /* Ensures the image fills the container without distortion */
+  max-height: 100%; /* Prevents overflow beyond the container */
+  max-width: 100%; /* Prevents overflow beyond the container */
+}
+
+
+.image2Wrapper {
+  width: 107px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-7xs) 0 0;
+  box-sizing: border-box;
+}
+.mynauicartIcon {
+  height: 24px;
+  width: 24px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.milkSourcingBeginsOctober {
+  align-self: stretch;
+  height: 34px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: space-between;
+  padding: 0 var(--padding-sm) 0 0;
+  box-sizing: border-box;
+  gap: var(--gap-xl);
+}
+.phsealCheckIcon {
+  height: 48px;
+  width: 48px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.b,
+.kandavikaCowGhee {
+  color: var(--color-green-200);
+}
+
+.authemticProductName{
+  color: rgba(40, 125, 0, 1);
+  font-weight: 700;
+}
+
+.yourProductKandavikaContainer {
+  align-self: stretch;
+  flex: 1;
+  position: relative;
+  letter-spacing: 0.01em;
+  font-size: 12px;
+  font-family: var(--font-mulish);
+  font-weight: 400;
+}
+.span {
+  color: var(--color-black);
+}
+.sealNumber02021454575Container {
+  align-self: stretch;
+  position: relative;
+  letter-spacing: 0.01em;
+  color: var(--color-green-100);
+  font-size: 12px;
+  font-family: var(--font-mulish);
+  font-weight: 400;
+}
+
+
+.yourProductKandavikaCowGheParent {
+  align-self: stretch;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  /* gap: var(--gap-5xs); */
+  margin-left: 10px;
+}
+.authLabel{
+  display: flex;
+  flex-direction: column;
+  margin-left: 10px;
+  gap: 8px;
+  font-size: 12px;
+
+}
+
+
+.phsealCheckParent,
+.sealUnseal {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.phsealCheckParent {
+  align-self: stretch;
+  flex: 1;
+  justify-content: flex-start;
+  gap: var(--gap-5xs);
+  max-width: 100%;
+}
+.sealUnseal {
+  height: 80px;
+  background-color: var(--color-palegoldenrod);
+  overflow: hidden;
+  flex-shrink: 0;
+  justify-content: center;
+  padding: var(--padding-smi) var(--padding-base) var(--padding-sm)
+    var(--padding-smi);
+  box-sizing: border-box;
+}
+.improvesHeartHealth,
+.sealUnseal,
+.vector {
+  align-self: stretch;
+  max-width: 100%;
+}
+.improvesHeartHealth {
+  position: relative;
+  overflow: hidden;
+  max-height: 100%;
+  object-fit: cover;
+}
+.vector {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.recipiesChild {
+  height: 3px;
+  width: 176px;
+  position: relative;
+}
+.line,
+.recipies {
+  align-self: stretch;
+  display: flex;
+  justify-content: flex-start;
+}
+.recipies {
+  height: 0;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 0 var(--padding-base);
+  box-sizing: border-box;
+}
+.line {
+  height: 412px;
+  flex-direction: column;
+  align-items: center;
+  gap: var(--gap-xs);
+  max-width: 100%;
+  text-align: left;
+  font-size: var(--font-size-xs);
+  color: var(--color-black);
+  font-family: var(--font-mulish);
+}
+@media screen and (max-width: 450px) {
+  .line {
+    height: 412px;
+  }
+}
+
+
+.time {
+  position: relative;
+  letter-spacing: 0.01em;
+  line-height: 20px;
+  font-weight: 500;
+}
+.rightIcons {
+  height: 17px;
+  width: 46px;
+  position: relative;
+}
+.homeButton {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  justify-content: space-between;
+  padding: 0 var(--padding-base);
+  text-align: left;
+  font-size: var(--font-size-sm);
+  color: var(--color-black);
+  font-family: var(--font-roboto);
+}
+.heroiconsOutlinemenuAlt1,
+.image2Icon {
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.heroiconsOutlinemenuAlt1 {
+  margin: 0;
+  height: 24px;
+  width: 24px;
+}
+
+.newArrivalsFrame {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  box-sizing: border-box;
+}
+.mynauicartIcon {
+  height: 24px;
+  width: 24px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.ingredientsFrame {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+.phsealCheckIcon {
+  height: 48px;
+  width: 48px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.b,
+.kandavikaCowGhee {
+  color: var(--color-indianred);
+}
+.yourProductKandavikaContainer {
+  align-self: stretch;
+  flex: 1;
+  position: relative;
+  letter-spacing: 0.01em;
+}
+.span {
+  color: var(--color-black);
+}
+.sealNumber02021454575Container {
+  align-self: stretch;
+  position: relative;
+  letter-spacing: 0.01em;
+  color: var(--color-indianred);
+}
+.phsealCheckParent,
+.yourProductKandavikaCowGheParent {
+  align-self: stretch;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-5xs);
+}
+.phsealCheckParent {
+  flex-direction: row;
+  align-items: center;
+  gap: var(--gap-4xs);
+}
+.joinOurDriveText,
+.sealUnseal {
+  align-self: stretch;
+  overflow: hidden;
+}
+.sealUnseal {
+  height: 80px;
+  background-color: var(--color-mistyrose);
+  flex-shrink: 0;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: var(--padding-smi) var(--padding-base) var(--padding-sm)
+    var(--padding-xs);
+  box-sizing: border-box;
+}
+.joinOurDriveText {
+  position: relative;
+  max-width: 100%;
+  max-height: 100%;
+  object-fit: cover;
+}
+.groupFrameA,
+.navigationBar {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.navigationBar {
+  align-items: center;
+  /* gap: var(--gap-3xl); */
+  background-color: white;
+}
+.bringYourOwnContainerTextChild {
+  height: 3px;
+  width: 176px;
+  position: relative;
+}
+.bringYourOwnContainerText {
+  align-self: stretch;
+  height: 12px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-base);
+  box-sizing: border-box;
+}
+.kandavikaCowGhee1 {
+  align-self: stretch;
+  position: relative;
+  letter-spacing: 0.01em;
+}
+.more {
+  color: var(--color-chocolate-100);
+}
+.discoverTheGoodnessContainer {
+  align-self: stretch;
+  height: 75px;
+  display: inline-block;
+}
+.discoverTheGoodnessContainer,
+.fromFarmTo,
+.iconMoonArrow {
+  position: relative;
+  letter-spacing: 0.01em;
+}
+.fromFarmTo {
+  font-weight: 200;
+}
+.iconMoonArrow {
+  color: var(--color-seagreen);
+}
+.groupMilkSourcing {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-12xs);
+}
+.adultration,
+.div {
+  position: relative;
+  letter-spacing: 0.01em;
+}
+.adultration {
+  font-weight: 200;
+}
+.div {
+  color: var(--color-seagreen);
+}
+.groupMilkSourcing1 {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-12xs);
+}
+.div1,
+.processing {
+  position: relative;
+  letter-spacing: 0.01em;
+}
+.processing {
+  font-weight: 200;
+}
+.div1 {
+  color: var(--color-seagreen);
+}
+.groupMilkSourcing2 {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-12xs);
+}
+.div2,
+.naturalAndPure {
+  position: relative;
+  letter-spacing: 0.01em;
+}
+.naturalAndPure {
+  font-weight: 200;
+}
+.div2 {
+  color: var(--color-seagreen);
+}
+.groupMilkSourcing3 {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-12xs);
+}
+.traditionalSatvikMethod {
+  position: relative;
+  letter-spacing: 0.01em;
+  font-weight: 200;
+}
+.frameOctober {
+  align-self: stretch;
+  height: 34px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-9xs);
+}
+.dropdownTop {
+  align-items: flex-start;
+  gap: var(--gap-base);
+  font-size: var(--font-size-xs);
+  color: var(--color-black);
+}
+.dropdownArrowUp,
+.dropdownTop,
+.iconMoonArrowUp {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.iconMoonArrowUp {
+  align-items: flex-start;
+  padding: 0 var(--padding-base);
+  gap: var(--gap-5xs);
+  font-size: var(--font-size-base);
+  color: var(--color-seagreen);
+}
+.dropdownArrowUp {
+  align-items: center;
+  gap: var(--gap-xs);
+  text-align: left;
+  font-size: var(--font-size-xs);
+  color: var(--color-black);
+  font-family: var(--font-mulish);
+}
+
+.imageTracker {
+  display: flex;
+  justify-content: center;
+  margin-top: 10;
+}
+
+.imageDot {
+  padding: 4px;
+  margin-right: 6px;
+  border-radius: 50%;
+  background: #728aae;
+  transition: background-color 0.3s;
+}
+
+.imageDot:last-child {
+  margin-right: 0;
+}
+
+.imageDotActive {
+  background: #0956CC; 
+}

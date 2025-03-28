@@ -1,0 +1,55 @@
+.frameChild {
+  height: 48px;
+  width: 328px;
+  position: relative;
+  border-radius: var(--br-9xs);
+  background-color: var(--color-chocolate-100);
+  display: none;
+}
+.reportNow {
+  position: relative;
+  font-size: var(--font-size-xs);
+  letter-spacing: 0.01em;
+  font-family: var(--font-mulish);
+  color: var(--color-azure);
+  text-align: center;
+  z-index: 1;
+}
+.rectangleParent {
+  cursor: pointer;
+  border: 0;
+  padding: var(--padding-mid) var(--padding-3xl) var(--padding-base)
+    var(--padding-xl);
+  background-color: var(--color-chocolate-100);
+  width: 328px;
+  border-radius: var(--br-9xs);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  box-sizing: border-box;
+}
+.home {
+  position: absolute;
+  height: calc(100% - 16px);
+  top: 12px;
+  bottom: 4px;
+  left: calc(50% - 50px);
+  border-radius: var(--br-5xs);
+  background-color: var(--color-black);
+  width: 100px;
+}
+.navigation {
+  align-self: stretch;
+  height: 20px;
+  position: relative;
+  background-color: var(--color-azure);
+}
+.reportGroup {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-xs);
+}

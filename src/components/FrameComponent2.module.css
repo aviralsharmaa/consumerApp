@@ -1,0 +1,126 @@
+.greenCopy1 {
+  width: 47px;
+  color: aliceblue;
+  flex: 1;
+  position: relative;
+  max-height: 100%;
+  object-fit: cover;
+}
+.powerSource {
+  align-self: stretch;
+  display: flex;
+  color: aliceblue;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-lgi) 0 0;
+}
+.footerInfo {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+.socialMediaContainer {
+  display: flex;
+  gap: 10px;
+}
+
+.socialMediaLink {
+  display: inline-block;
+}
+
+.socialMediaIcon {
+  width: 24px;
+  height: 24px;
+}
+.privacyPolicy,
+.returnPolicy {
+  position: relative;
+  letter-spacing: 0.01em;
+}
+.returnPolicy {
+  padding-right: var(--padding-10xs);
+}
+.privacyPolicyContactUs {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-9xs);
+  color: aliceblue;
+}
+.aboutUs {
+  color: aliceblue;
+  padding-right: var(--padding-3xs);
+}
+.aboutUs,
+.contactUs {
+  color: aliceblue;
+  position: relative;
+  letter-spacing: 0.01em;
+}
+.privacyPolicyContactUs1 {
+  display: flex;
+  color: aliceblue;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-9xs);
+}
+.powerSourceParent {
+  align-self: stretch;
+  color: aliceblue;
+  flex: 1;
+  color: aliceblue;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 var(--padding-base);
+}
+.dividerLine {
+  align-self: stretch;
+  height: 1px;
+  color: aliceblue;
+  position: relative;
+  border-top: 1px solid var(--color-white);
+  box-sizing: border-box;
+  opacity: 0.2;
+}
+.poweredByArvo {
+  width: 164px;
+  color: aliceblue;
+  position: relative;
+  letter-spacing: 0.01em;
+  display: inline-block;
+  padding-right: var(--padding-xl);
+}
+.footerInfo,
+.frameParent {
+  align-self: stretch;
+  display: flex;
+  color: aliceblue;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-base);
+}
+.frameParent {
+  position: relative;
+  height: 127px;
+  color: aliceblue;
+  
+  background-color: rgb(32, 30, 30);
+  overflow: hidden;
+  flex-shrink: 0;
+  flex-direction: column;
+  align-items: center;
+  padding: var(--padding-xs) 0 var(--padding-base);
+  box-sizing: border-box;
+  gap: var(--gap-sm);
+  text-align: left;
+  font-size: var(--font-size-xs);
+  color: var(--color-white);
+  font-family: var(--font-mulish);
+}

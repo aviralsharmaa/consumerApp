@@ -1,0 +1,879 @@
+.time {
+    position: relative;
+    letter-spacing: 0.01em;
+    line-height: 20px;
+    font-weight: 500;
+  }
+  .right-icons {
+    height: 17px;
+    width: 46px;
+    position: relative;
+  }
+  .boosts-immune-system {
+    align-self: stretch;
+    height: 32px;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    justify-content: space-between;
+    padding: 0 var(--padding-base);
+    box-sizing: border-box;
+    text-align: left;
+    font-size: 14px;
+    color: var(--color-black);
+    font-family: var(--font-roboto);
+  }
+  .heroicons-outlinemenu-alt-1,
+  .image-2-icon {
+    position: relative;
+    overflow: hidden;
+    flex-shrink: 0;
+  }
+  .heroicons-outlinemenu-alt-1 {
+    margin: 0;
+    height: 24px;
+    width: 24px;
+  }
+  .image-2-icon {
+    align-self: stretch;
+    height: 20px;
+    max-width: 100%;
+    object-fit: cover;
+  }
+  .no-lactose-or-casein {
+    width: 107px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: 6px 0 0;
+    box-sizing: border-box;
+  }
+  .mynauicart-icon {
+    height: 24px;
+    width: 24px;
+    position: relative;
+    overflow: hidden;
+    flex-shrink: 0;
+  }
+  .supports-mental-health {
+    align-self: stretch;
+    height: 34px;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: space-between;
+    padding: 0 var(--padding-sm) 0 var(--padding-smi);
+    box-sizing: border-box;
+  }
+  .frame-child {
+    height: 3px;
+    width: 176px;
+    position: relative;
+  }
+  .sourcing-journey-inner {
+    align-self: stretch;
+    height: 12px;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: 0 var(--padding-base);
+    box-sizing: border-box;
+  }
+  .kandavika-cow-ghee {
+    align-self: stretch;
+    position: relative;
+    letter-spacing: 0.01em;
+  }
+  .more {
+    color: var(--color-chocolate);
+  }
+  .discover-the-goodness-container {
+    align-self: stretch;
+    height: 75px;
+    display: inline-block;
+  }
+  .discover-the-goodness-container,
+  .div,
+  .from-farm-to {
+    position: relative;
+    letter-spacing: 0.01em;
+  }
+  .from-farm-to {
+    font-weight: 200;
+  }
+  .div {
+    color: var(--color-seagreen);
+  }
+  .vitamins {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: var(--gap-12xs);
+  }
+  .adultration,
+  .div1 {
+    position: relative;
+    letter-spacing: 0.01em;
+  }
+  .adultration {
+    font-weight: 200;
+  }
+  .div1 {
+    color: var(--color-seagreen);
+  }
+  .vitamins1 {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: var(--gap-12xs);
+  }
+  .div2,
+  .processing {
+    position: relative;
+    letter-spacing: 0.01em;
+  }
+  .processing {
+    font-weight: 200;
+  }
+  .div2 {
+    color: var(--color-seagreen);
+  }
+  .vitamins2 {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: var(--gap-12xs);
+  }
+  .div3,
+  .natural-and-pure {
+    position: relative;
+    letter-spacing: 0.01em;
+  }
+  .natural-and-pure {
+    font-weight: 200;
+  }
+  .div3 {
+    color: var(--color-seagreen);
+  }
+  .vitamins3 {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: var(--gap-12xs);
+  }
+  .traditional-satvik-method {
+    position: relative;
+    letter-spacing: 0.01em;
+    font-weight: 200;
+  }
+  .kandavika-cow-ghee-parent,
+  .key-benefits,
+  .vitamins-parent {
+    align-self: stretch;
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+  }
+  .vitamins-parent {
+    height: 34px;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: var(--gap-9xs);
+  }
+  .kandavika-cow-ghee-parent,
+  .key-benefits {
+    flex-direction: column;
+  }
+  .key-benefits {
+    gap: var(--gap-base);
+    font-size: var(--font-size-xs);
+    color: var(--color-black);
+  }
+  .kandavika-cow-ghee-parent {
+    padding: 0 var(--padding-base);
+    box-sizing: border-box;
+    gap: var(--gap-5xs);
+    min-height: 165px;
+    font-size: var(--font-size-base);
+  }
+  .january {
+    height: 17px;
+    width: 17px;
+    position: relative;
+    border-radius: 50%;
+    background-color: var(--color-azure);
+    border: 1px solid var(--color-seagreen);
+    box-sizing: border-box;
+    z-index: 1;
+  }
+  .traditional-churning-process {
+    position: relative;
+    letter-spacing: 0.01em;
+  }
+  .arrival-on-shelves {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    gap: var(--gap-6xs);
+  }
+  .october-15-2023 {
+    position: relative;
+    letter-spacing: 0.01em;
+  }
+  .arrival-on-shelves-parent,
+  .key-benefits1 {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+  }
+  .key-benefits1 {
+    flex-direction: row;
+    padding: 0 var(--padding-5xl);
+    color: var(--color-gray);
+  }
+  .arrival-on-shelves-parent {
+    flex-direction: column;
+    padding: 0 var(--padding-xl) 0 0;
+    gap: var(--gap-11xs);
+  }
+  .the-milk-is {
+    align-self: stretch;
+    flex: 1;
+    position: relative;
+    letter-spacing: 0.01em;
+  }
+  .frame-parent,
+  .rich-in-vitamins-improves-hear {
+    align-self: stretch;
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    box-sizing: border-box;
+  }
+  .rich-in-vitamins-improves-hear {
+    height: 60px;
+    flex-direction: row;
+    padding: 0 0 0 var(--padding-5xl);
+    color: var(--color-black);
+  }
+  .frame-parent {
+    height: 118px;
+    flex-direction: column;
+    padding: 0 var(--padding-base);
+    gap: var(--gap-xs);
+  }
+  .frame-item {
+    height: 17px;
+    width: 17px;
+    position: relative;
+    border-radius: 50%;
+    background-color: var(--color-azure);
+    border: 1px solid var(--color-seagreen);
+    box-sizing: border-box;
+    z-index: 1;
+  }
+  .boiling-and-concentration {
+    position: relative;
+    letter-spacing: 0.01em;
+  }
+  .ellipse-parent {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    gap: var(--gap-6xs);
+  }
+  .november-1-2023 {
+    position: relative;
+    letter-spacing: 0.01em;
+  }
+  .november-1-2023-wrapper {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: 0 42px 0 var(--padding-5xl);
+    color: var(--color-gray);
+  }
+  .frame-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 0 var(--padding-xl) 0 0;
+    gap: var(--gap-11xs);
+  }
+  .the-churned-milk {
+    align-self: stretch;
+    flex: 1;
+    position: relative;
+    letter-spacing: 0.01em;
+  }
+  .frame-group,
+  .the-churned-milk-is-carefully-wrapper {
+    align-self: stretch;
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    box-sizing: border-box;
+  }
+  .the-churned-milk-is-carefully-wrapper {
+    height: 60px;
+    flex-direction: row;
+    padding: 0 0 0 var(--padding-5xl);
+    color: var(--color-black);
+  }
+  .frame-group {
+    height: 118px;
+    flex-direction: column;
+    padding: 0 var(--padding-base);
+    gap: var(--gap-xs);
+  }
+  .frame-inner {
+    height: 17px;
+    width: 17px;
+    position: relative;
+    border-radius: 50%;
+    background-color: var(--color-azure);
+    border: 1px solid var(--color-seagreen);
+    box-sizing: border-box;
+    z-index: 1;
+  }
+  .dahi-and-makhan {
+    position: relative;
+    letter-spacing: 0.01em;
+  }
+  .ellipse-group {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    gap: var(--gap-6xs);
+  }
+  .november-15-2023 {
+    position: relative;
+    letter-spacing: 0.01em;
+  }
+  .frame-parent1,
+  .november-15-2023-wrapper {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+  }
+  .november-15-2023-wrapper {
+    flex-direction: row;
+    padding: 0 var(--padding-5xl);
+    color: var(--color-gray);
+  }
+  .frame-parent1 {
+    flex-direction: column;
+    padding: 0 var(--padding-xl) 0 0;
+    gap: var(--gap-11xs);
+  }
+  .the-concentrated-milk {
+    align-self: stretch;
+    flex: 1;
+    position: relative;
+    letter-spacing: 0.01em;
+  }
+  .frame-div,
+  .the-concentrated-milk-is-trans-wrapper {
+    align-self: stretch;
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    box-sizing: border-box;
+  }
+  .the-concentrated-milk-is-trans-wrapper {
+    height: 60px;
+    flex-direction: row;
+    padding: 0 0 0 var(--padding-5xl);
+    color: var(--color-black);
+  }
+  .frame-div {
+    height: 118px;
+    flex-direction: column;
+    padding: 0 var(--padding-base);
+    gap: var(--gap-xs);
+  }
+  .ellipse-div {
+    height: 17px;
+    width: 17px;
+    position: relative;
+    border-radius: 50%;
+    background-color: var(--color-azure);
+    border: 1px solid var(--color-seagreen);
+    box-sizing: border-box;
+    z-index: 1;
+  }
+  .clarification-into-ghee {
+    position: relative;
+    letter-spacing: 0.01em;
+  }
+  .ellipse-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    gap: var(--gap-6xs);
+  }
+  .december-1-2023 {
+    position: relative;
+    letter-spacing: 0.01em;
+    color: var(--color-gray);
+  }
+  .frame-parent3 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 0 var(--padding-xl) 0 0;
+    gap: var(--gap-11xs);
+  }
+  .the-makhan-is {
+    align-self: stretch;
+    flex: 1;
+    position: relative;
+    letter-spacing: 0.01em;
+  }
+  .frame-parent2,
+  .the-makhan-is-then-heated-unti-wrapper {
+    align-self: stretch;
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    box-sizing: border-box;
+  }
+  .the-makhan-is-then-heated-unti-wrapper {
+    height: 60px;
+    flex-direction: row;
+    padding: 0 0 0 var(--padding-5xl);
+    color: var(--color-black);
+  }
+  .frame-parent2 {
+    height: 118px;
+    flex-direction: column;
+    padding: 0 var(--padding-base);
+    gap: var(--gap-xs);
+  }
+  .frame-child1 {
+    height: 17px;
+    width: 17px;
+    position: relative;
+    border-radius: 50%;
+    background-color: var(--color-azure);
+    border: 1px solid var(--color-seagreen);
+    box-sizing: border-box;
+    z-index: 1;
+  }
+  .quality-assurance-and {
+    position: relative;
+    letter-spacing: 0.01em;
+  }
+  .ellipse-parent1 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    gap: var(--gap-6xs);
+  }
+  .december-15-2023 {
+    position: relative;
+    letter-spacing: 0.01em;
+  }
+  .december-15-2023-wrapper,
+  .frame-parent5 {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+  }
+  .december-15-2023-wrapper {
+    flex-direction: row;
+    padding: 0 var(--padding-5xl);
+    color: var(--color-gray);
+  }
+  .frame-parent5 {
+    flex-direction: column;
+    padding: 0 var(--padding-xl) 0 0;
+    gap: var(--gap-11xs);
+  }
+  .the-milk-is1 {
+    align-self: stretch;
+    flex: 1;
+    position: relative;
+    letter-spacing: 0.01em;
+  }
+  .frame-parent4,
+  .the-milk-is-then-traditionally-wrapper {
+    align-self: stretch;
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    box-sizing: border-box;
+  }
+  .the-milk-is-then-traditionally-wrapper {
+    height: 60px;
+    flex-direction: row;
+    padding: 0 0 0 var(--padding-5xl);
+    color: var(--color-black);
+  }
+  .frame-parent4 {
+    height: 118px;
+    flex-direction: column;
+    padding: 0 var(--padding-base);
+    gap: var(--gap-xs);
+  }
+  .frame-child2 {
+    height: 17px;
+    width: 17px;
+    position: relative;
+    border-radius: 50%;
+    background-color: var(--color-azure);
+    border: 1px solid var(--color-seagreen);
+    box-sizing: border-box;
+    z-index: 1;
+  }
+  .transportation-and-distributio {
+    position: relative;
+    letter-spacing: 0.01em;
+  }
+  .ellipse-parent2 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    gap: var(--gap-6xs);
+  }
+  .december-25-2023 {
+    position: relative;
+    letter-spacing: 0.01em;
+  }
+  .december-25-2023-wrapper,
+  .frame-parent7 {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+  }
+  .december-25-2023-wrapper {
+    flex-direction: row;
+    padding: 0 var(--padding-5xl);
+    color: var(--color-gray);
+  }
+  .frame-parent7 {
+    flex-direction: column;
+    padding: 0 var(--padding-xl) 0 0;
+    gap: var(--gap-11xs);
+  }
+  .the-packaged-ghee {
+    align-self: stretch;
+    flex: 1;
+    position: relative;
+    letter-spacing: 0.01em;
+  }
+  .frame-parent6,
+  .the-packaged-ghee-is-then-tran-wrapper {
+    align-self: stretch;
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    box-sizing: border-box;
+  }
+  .the-packaged-ghee-is-then-tran-wrapper {
+    height: 45px;
+    flex-direction: row;
+    padding: 0 0 0 var(--padding-5xl);
+    color: var(--color-black);
+  }
+  .frame-parent6 {
+    height: 103px;
+    flex-direction: column;
+    padding: 0 var(--padding-base);
+    gap: var(--gap-xs);
+  }
+  .enhanced-digestive-health-child {
+    height: 17px;
+    width: 17px;
+    position: relative;
+    border-radius: 50%;
+    background-color: var(--color-azure);
+    border: 1px solid var(--color-seagreen);
+    box-sizing: border-box;
+    z-index: 1;
+  }
+  .arrival-on-shelves1 {
+    position: relative;
+    letter-spacing: 0.01em;
+  }
+  .enhanced-digestive-health {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    gap: var(--gap-6xs);
+  }
+  .january-1-2024 {
+    position: relative;
+    letter-spacing: 0.01em;
+  }
+  .january-1-2024-wrapper {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: 0 11px;
+    color: var(--color-gray);
+  }
+  .enhanced-digestive-health-parent {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: flex-start;
+    padding: 0 var(--padding-xl) 0 0;
+    gap: var(--gap-11xs);
+  }
+  .key-benefits2 {
+    align-self: stretch;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: 0 var(--padding-base);
+  }
+  .kandavika-ghee-makes {
+    align-self: stretch;
+    flex: 1;
+    position: relative;
+    letter-spacing: 0.01em;
+  }
+  .improves-heart-health,
+  .sourcing-journey {
+    align-self: stretch;
+    display: flex;
+    justify-content: flex-start;
+  }
+  .improves-heart-health {
+    height: 75px;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 0 var(--padding-base) 0 var(--padding-21xl);
+    box-sizing: border-box;
+    color: var(--color-black);
+  }
+  .sourcing-journey {
+    flex-direction: column;
+    align-items: center;
+    gap: var(--gap-xs);
+    text-align: left;
+    font-size: var(--font-size-xs);
+    color: var(--color-seagreen);
+    font-family: var(--font-mulish);
+  }
+  .kandavika-stands-at,
+  .our-story {
+    align-self: stretch;
+    position: relative;
+    letter-spacing: 0.01em;
+  }
+  .kandavika-stands-at {
+    height: 105px;
+    color: var(--color-black);
+    display: inline-block;
+  }
+  .container {
+    align-self: stretch;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: 0 var(--padding-base);
+    gap: var(--gap-base);
+    text-align: left;
+    font-size: var(--font-size-xs);
+    color: var(--color-seagreen);
+    font-family: var(--font-mulish);
+  }
+  .product-journey {
+    width: 328px;
+    position: relative;
+    letter-spacing: 0.01em;
+    display: none;
+    z-index: 2;
+  }
+  .line-beginning {
+    width: 1px;
+    height: 912px;
+    position: absolute;
+    margin: 0 !important;
+    top: 777px;
+    left: 24px;
+    border-right: 1px solid var(--color-seagreen);
+    box-sizing: border-box;
+  }
+  .our-mission,
+  .to-provide-organic {
+    align-self: stretch;
+    position: relative;
+    letter-spacing: 0.01em;
+  }
+  .to-provide-organic {
+    height: 60px;
+    color: var(--color-black);
+    display: inline-block;
+  }
+  .container1,
+  .frame-header {
+    align-self: stretch;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: 0 var(--padding-base);
+  }
+  .container1 {
+    gap: var(--gap-base);
+    text-align: left;
+    font-size: var(--font-size-xs);
+    color: var(--color-seagreen);
+    font-family: var(--font-mulish);
+  }
+  .frame-header {
+    gap: 30px;
+  }
+  .recipies {
+    width: 328px;
+    position: relative;
+    letter-spacing: 0.01em;
+    display: inline-block;
+  }
+  .new-arrivals-section-child {
+    align-self: stretch;
+    position: relative;
+    max-width: 100%;
+    overflow: hidden;
+    max-height: 100%;
+  }
+  .new-arrivals-section {
+    align-self: stretch;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    gap: var(--gap-base);
+    text-align: left;
+    font-size: var(--font-size-xs);
+    font-family: var(--font-mulish);
+  }
+  .join-our-sustainability,
+  .new-arrivals-section {
+    color: var(--color-seagreen);
+  }
+  .at-kandavika-were,
+  .join-our-sustainability-container {
+    align-self: stretch;
+    position: relative;
+    letter-spacing: 0.01em;
+  }
+  .join-our-sustainability-container {
+    color: var(--color-chocolate);
+  }
+  .at-kandavika-were {
+    height: 60px;
+    text-align: left;
+    display: inline-block;
+  }
+  .b {
+    color: var(--color-chocolate);
+  }
+  .get-10-off1 {
+    text-decoration: underline;
+  }
+  .get-10-off {
+    color: var(--color-chocolate);
+  }
+  .bring-your-own-container {
+    align-self: stretch;
+    position: relative;
+    letter-spacing: 0.01em;
+    color: var(--color-seagreen);
+  }
+  .blank-line,
+  .come-join-us,
+  .yes-its-that {
+    margin: 0;
+  }
+  .yes-its-that-container {
+    align-self: stretch;
+    height: 120px;
+    position: relative;
+    letter-spacing: 0.01em;
+    text-align: left;
+    display: inline-block;
+  }
+  .parent-frame {
+    align-self: stretch;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: 0 var(--padding-base);
+    gap: var(--gap-base);
+    text-align: center;
+    font-size: var(--font-size-xs);
+    color: var(--color-black);
+    font-family: var(--font-mulish);
+  }
+  .camera-cutout-icon {
+    width: 24px;
+    height: 24px;
+    position: relative;
+    display: none;
+    z-index: 9;
+  }
+
+  .home {
+    position: absolute;
+    height: calc(100% - 16px);
+    top: 12px;
+    bottom: 4px;
+    left: calc(50% - 50px);
+    border-radius: 8px;
+    background-color: var(--color-black);
+    width: 100px;
+  }
+  .android-large-2,
+  .navigation {
+    width: 100%;
+    background-color: var(--color-azure);
+  }
+  .navigation {
+    height: 20px;
+    position: absolute;
+    margin: 0 !important;
+    top: 780px;
+    right: 0;
+    left: 0;
+    z-index: 3;
+  }
+  .android-large-2 {
+    position: relative;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 10px 0 133px;
+    box-sizing: border-box;
+    gap: 39px;
+    text-align: left;
+    font-size: var(--font-size-xs);
+    color: var(--color-seagreen);
+    font-family: var(--font-mulish);
+  }
+  

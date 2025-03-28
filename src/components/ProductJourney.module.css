@@ -1,0 +1,123 @@
+.timelineContainer {
+    width: 100%;
+    max-width: 600px;
+    margin: 0 auto;
+  }
+  
+  .timelineList {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    position: relative;
+  }
+  
+  .timelineItem {
+    display: flex;
+    align-items: flex-start;
+    position: relative;
+    padding-top: 14px;
+    padding-bottom: 11px;
+    border-top: 1px solid grey;
+  }
+  
+
+  .timelineItem:first-child {
+    border-top: 1px solid grey;
+  }
+  
+  .timelineItem:not(:last-child)::after {
+    content: '';
+    position: absolute;
+    left: 24px;
+    top: 22px;
+    bottom: -26px;
+    width: 1.1px;
+    background: black;
+    z-index: 3;
+    transition: bottom 0.5s ease-in;
+  }
+  
+  .timelineMarker {
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    background: #0956CC;
+    border: 1.1px solid #0956CC;
+    margin-right: 8px;
+    position: absolute;
+    top: 14px;
+    left: 16px;
+    z-index: 5;
+  }
+  
+  .timelineContent {
+    flex-grow: 1;
+    margin-left: 40px;
+  }
+  
+  .stepTitle {
+    font-weight: 600;
+    letter-spacing: 0.01em;
+    font-family: var(--font-mulish);
+    font-size: 12px;
+    color: black;
+  }
+  
+  .stepDate {
+    color: grey;       
+    margin-top: 4px;
+    font-family: var(--font-mulish);
+  }
+  
+  .timelineItem:last-child {
+    border-bottom: 1px solid grey;
+  }
+  
+  .dropdownIcon {
+    height: 19px;
+    width: 20px;
+    margin-right: 15px;
+    transition: transform 0.4s ease;
+  
+  }
+  
+  .rotate {
+    transform: rotate(180deg);
+  }
+  
+  .description {
+    padding-top: 0;
+    padding-bottom: 0;
+    font-family: var(--font-mulish);
+    font-size: 12px;
+    color: black;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.3s ease-out, padding-top 0.3s ease-out, padding-bottom 0.2s ease-out;
+  }
+  
+
+  .showDescription {
+    padding-top: 8px;
+    padding-bottom: 1px;
+    max-height: 1000px;
+    transition: max-height 0.6s ease-in, padding-top 0.4s ease, padding-bottom 0.6s ease;
+
+  }
+  
+  
+  .expanded .description {
+    max-height: auto; 
+  }
+  
+  .expanded::after {
+    bottom: 0px;
+  }
+  .timelineItem:not(.expanded) .description {
+    transition: max-height 0.2s ease-out, padding-top 0.2s ease-out, padding-bottom 0.2s ease-out;
+  }
+
+  .timelineItem:not(.expanded)::after {
+    transition: bottom 1s ease-in-out;
+  }
+  
