@@ -22,7 +22,7 @@ const Iteration = (props) => {
   var ProductID = localStorage.getItem("ProductID");
   const productn = data?.title;
 if (data?.tenant === "sol1") {
-  data.brandlink = "/modi.png";
+  data.brandlink = "/arvologo1.png";
 }
 
   // -- Condition: read ProductTenant from localStorage

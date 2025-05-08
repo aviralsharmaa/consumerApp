@@ -87,7 +87,7 @@ const Line: React.FC<LineProps> = ({
               alt=""
               src={data.brandlink || "/arvologo1.png"}
               style={{
-                height: data?.tenant === "sol1" ? "201px" : "60px",
+                height: data?.tenant === "sol1" ? "60px" : "60px",
                 width: "auto",
                 objectFit: "cover",
               }}
